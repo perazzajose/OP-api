@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "ONE PIECE";
+    src: url("https://db.onlinewebfonts.com/t/82848488b73a87d72f2436c02b9ab608.eot");
+    src: url("https://db.onlinewebfonts.com/t/82848488b73a87d72f2436c02b9ab608.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/82848488b73a87d72f2436c02b9ab608.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/82848488b73a87d72f2436c02b9ab608.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/82848488b73a87d72f2436c02b9ab608.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/82848488b73a87d72f2436c02b9ab608.svg#ONE PIECE")format("svg");
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(/img/MerryGo.webp);
+    
+}
+  .card {
+    font-family: "ONE PIECE", sans-serif;
+    background: rgba(255, 255, 255, 0.295);
+    backdrop-filter: blur(10px);
+    
+  }
+  .card-title {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  p{ 
+  font-size: 1.9rem;
+  }
+
+
+ 
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .card {
+      width: 90%; /* Reducir el ancho de la tarjeta */
+      margin: 0 auto; /* Centrar la tarjeta horizontalmente */
+    }
+    
+    .card img {
+      max-width: 100%; /* Asegurarse de que la imagen se ajuste al ancho de la tarjeta */
+      height: auto; /* Ajustar la altura automáticamente */
+    }
+  }
+  
+ 
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  
+}
+
+/* #Dispositivo = Tablets de baja resolución y teléfonos Móviles (horizontal) 
+#Resolución = B/w 481px to 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+ .card img {
+    width: 80%;
+    height: auto;
+ }
+}
+  
+/* Smartphones (landscape) */
+@media only screen and (min-width : 321px) {
+
+}
+
+/* Smartphones (portrait) */
+@media only screen and (max-width : 320px) {
+   
+}
+ 
+/* iPads (portrait & landscape) */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  
+}
+ 
+/* iPads (landscape) 
+#Dispositivo = Tablets, Ipads (horizontal) 
+#Resolución = B/w 768px to 1024px */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) 
+and (orientation : landscape) {
+ 
+}
+ 
+/* iPads (portrait) 
+#Dispositivo = Tablets, Ipads (vertical) 
+#Resolucion = B/w 768px to 1024px */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) 
+and (orientation : portrait) {
+ 
+}
+ 
+/* Ordenadores de sobremesa y portátiles */
+@media only screen and (min-width : 1224px) {
+ 
+}
+ 
+/* Pantallas grandes */
+@media only screen and (min-width : 1824px) {
+ 
+}
+ 
+/* iPhone 4 */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), 
+only screen and (min-device-pixel-ratio : 1.5) {
+
+}
